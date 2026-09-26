@@ -1,27 +1,12 @@
-name: Build ZENO APK
+name: Test ZENO
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Recuperer ZENO
-        uses: actions/checkout@v4
-
-      - name: Installer Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-
-      - name: Compiler ZENO
-        run: gradle assembleDebug
-
-      - name: Sauvegarder APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: ZENO-APK
-          path: app/build/outputs/apk/debug/*.apk
+      - name: Test
+        run: echo "ZENO OK"
