@@ -12,3 +12,33 @@ android {
         versionName '1.0-final'
     }
 }
+
+tasks.register('patchMissingFindAppByPackage') {
+    doLast {
+        def source = file('src/main/java/com/zeno/launcher/MainActivity.java')
+        def text = source.getText('UTF-8')
+        def signature = 'private AppInfo findAppByPackage(String packageName)'
+        if (!text.contains(signature)) {
+            def marker = '    private String appLabelForPackage(String packageName) {'
+            def method = '''    private AppInfo findAppByPackage(String packageName) {
+        if (packageName == null || packageName.isEmpty()) return null;
+        for (AppInfo app : allApps) {
+            if (packageName.equals(app.packageName)) return app;
+        }
+        return null;
+    }
+
+'''
+            if (!text.contains(marker)) {
+                throw new GradleException('Point insertion MainActivity introuvable')
+            }
+            source.write(text.replace(marker, method + marker), 'UTF-8')
+        }
+    }
+}
+
+afterEvaluate {
+    tasks.named('compileDebugJavaWithJavac').configure {
+        dependsOn tasks.named('patchMissingFindAppByPackage')
+    }
+}
