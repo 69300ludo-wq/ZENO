@@ -1,0 +1,12 @@
+ZENO V3
+
+Nouveautés :
+- Zeno visuellement plus grand.
+- Plateforme fixe et indépendante du robot.
+- Mode repos après 45 secondes sans interaction.
+- Toucher l’écran/Zeno réveille immédiatement Zeno.
+- Yeux, cœur et animations de repos améliorés.
+- Le tiroir reste isolé : aucune animation du robot ne survit à son ouverture.
+- Portrait conservé pendant la stabilisation.
+
+Cette V3 est une version de test construite à partir de V2 FIX STABLE.

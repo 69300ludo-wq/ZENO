@@ -1,0 +1,11 @@
+ZENO FINAL — BUILD 2+6+7+3
+
+Intégré dans MainActivity.java :
+2 — 8 thèmes Zeno intégrés comme fonds du launcher : Classique bleu, Coucher de soleil, Planète violette, Glace, Jungle spatiale, Océan spatial, Nuages célestes, Nuit galactique.
+6 — Dossiers DANS le tiroir : création depuis le menu ⋮, sélection des applications, ouverture du dossier, suppression du dossier sans désinstaller les applications.
+7 — Icônes futuristes : menu de personnalisation global (Futuriste, Minimal, Glass, Néon, 3D + effets Aucun/Lueur/Galaxie/Cristal + cadre arrondi).
+3 — Voix/personnalité : réglages conservés + test TTS français + bouton « Parler à Zeno » utilisant la reconnaissance vocale Android.
+
+APK : zeno_app_icon.jpg est fourni comme asset validé. Pour l'icône système de l'APK, le projet complet doit relier cet asset dans AndroidManifest.xml / mipmap. Cette archive source reçue ne contenait ni AndroidManifest.xml ni Gradle, donc aucune fausse compilation APK n'a été annoncée.
+
+IMPORTANT : la base reçue est une archive partielle (MainActivity + ressources + notes). Elle ne contient pas le projet Gradle complet. Les modifications sont donc prêtes dans cette base, mais une compilation APK nécessite les fichiers Gradle/Manifest du projet complet.

@@ -1,0 +1,13 @@
+ZENO — ECRAN_TIROIR_APPLICATIONS RÉGLABLE
+
+Ajout : Préférences > Ajuster l’écran tiroir.
+- Haut / Bas / Gauche / Droite : 0 à 64 dp
+- Enregistrer et verrouiller
+- Déverrouiller
+- Réinitialiser
+- Valeurs conservées après redémarrage
+- Le fond du tiroir reste plein écran : aucun trou ne montre ECRAN_ACCUEIL.
+- ECRAN_ACCUEIL n’est pas modifié par ces réglages.
+
+Fichier principal :
+app/src/main/java/com/zeno/launcher/MainActivity.java

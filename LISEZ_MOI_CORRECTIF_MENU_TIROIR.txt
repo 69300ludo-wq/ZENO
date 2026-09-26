@@ -1,0 +1,9 @@
+ZENO — CORRECTIF MENU ⋮ DU TIROIR
+
+Correction ciblée uniquement sur le menu ⋮ de l'écran tiroir :
+- fond noir opaque conservé ;
+- texte des quatre entrées forcé en blanc doux ;
+- séparateurs bleu-noir discrets ;
+- aucune modification de la grille, du fond noir total ou de l'écran d'accueil.
+
+Base : Zeno_TIROIR_NOIR_TOTAL_FIX.

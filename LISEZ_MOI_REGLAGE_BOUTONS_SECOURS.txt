@@ -1,0 +1,14 @@
+ZENO - ECRAN_TIROIR_APPLICATIONS
+
+Nouveau mode de reglage :
+- panneau centre
+- boutons HAUT / BAS / GAUCHE / DROITE autour du verrou
+- appui court : reduit de 1 dp le bord choisi
+- appui long : agrandit de 1 dp le bord choisi
+- les applications sous le panneau sont temporairement non cliquables
+- VERROUILLER est le seul bouton qui sauvegarde les nouvelles dimensions
+- si Zeno est ferme avant verrouillage, les anciennes dimensions restent sauvegardees
+- bouton SECOURS fixe en haut a droite : appui long pour revenir aux dimensions de secours
+- menu trois points rendu opaque
+
+ECRAN_ACCUEIL reste sans barre de recherche/micro/menu.

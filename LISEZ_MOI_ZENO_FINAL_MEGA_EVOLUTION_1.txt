@@ -1,0 +1,27 @@
+ZENO FINAL — MEGA EVOLUTION 1
+
+Cette version lance l'architecture du projet final sans prétendre que tous les services externes sont déjà actifs.
+
+AJOUTÉ MAINTENANT :
+- Hub « Zeno Evolution » accessible depuis Zeno et les Préférences.
+- Changement du nom de Zeno, mémorisé.
+- Options yeux, cœur, voix, humour, personnalité évolutive.
+- Thèmes de Zeno.
+- Sommeil/réveil et préparation du réveil matin « toc-toc ».
+- Réglages des gestes et priorité des gestes commencés sur Zeno.
+- Envies fun manger/boire/jouer/discuter, explicitement NON vitales.
+- Réglages sécurité avec rappel : aucun contournement du verrouillage Android.
+- Entrées d'architecture pour Chat membres Zeno, GPS/localisation, SOS, Téléphone/Contacts/Messages.
+- Applications compatibles : le tiroir continue d'utiliser les applications Android installées.
+
+À CONNECTER/FINALISER ENSUITE :
+- vraie synthèse vocale et commandes vocales complètes ;
+- alarmes système Android ;
+- biométrie via API Android ;
+- GPS et partage de position avec permissions ;
+- SOS et contacts choisis ;
+- chat réseau entre membres Zeno ;
+- intégrations Téléphone/Contacts/Messages selon permissions ;
+- assets/animations du nouveau Zeno 3D.
+
+BASE CONSERVÉE : tiroir isolé, réveil après reprise, repos test 10 s, déplacement de Zeno.

@@ -1,0 +1,4 @@
+ZENO - FIX MODE DE VUE
+
+Correction unique : le titre « Mode de vue • Zeno » est forcé en blanc doux (#E8EDF5) sur le fond noir.
+Aucune autre partie du tiroir ou de l'accueil n'a été modifiée.

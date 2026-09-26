@@ -1,0 +1,8 @@
+ZENO - CORRECTIF TIROIR NOIR TOTAL
+
+- Le conteneur racine passe en noir opaque AVANT l'ouverture du tiroir.
+- La zone sous/derriere la barre d'etat reste noire : la pointe du fond d'ecran ne doit plus apparaitre.
+- Le fond de l'accueil redevient transparent en quittant le tiroir.
+- Barre Rechercher un peu plus legere/sombre.
+- Texte des noms d'applications adouci (gris tres clair) pour rester lisible sans blanc agressif.
+- Grille 4 colonnes et fonctions existantes conservees.

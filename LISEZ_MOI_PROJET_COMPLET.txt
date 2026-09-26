@@ -1,0 +1,16 @@
+ZENO FINAL - projet Android reconstitue
+
+Inclus :
+- menu Zeno existant conserve
+- robot Zeno conserve
+- effets yeux / coeur lumineux / personnalisation existante
+- 8 themes Zeno
+- tiroir + creation de dossiers
+- personnalisation d'icones
+- reconnaissance vocale et synthese vocale
+- commandes vocales : ouvre <application>, recherche <texte>, traduis <texte>, GPS/itineraire <lieu>
+- outils GPS, recherche Internet et traduction via intents/liens Android
+- vraie icone ZENO declaree dans AndroidManifest
+- projet Gradle/Manifest reconstitue
+
+Important : l'environnement de creation ici ne contient pas le SDK Android/Gradle necessaire pour produire et tester un APK signe. Ouvrir ce dossier dans Android Studio, laisser Gradle se synchroniser, puis Build > Build APK(s). Tester sur le telephone avant de considerer la version finale.

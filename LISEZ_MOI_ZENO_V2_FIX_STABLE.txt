@@ -1,0 +1,8 @@
+ZENO VIVANT V2 FIX STABLE
+- Repart de Zeno_VIVANT_V1_FIX_TIROIR_ISOLE (base stable testee).
+- Le code du tiroir showAppsDrawer() est conserve depuis cette base.
+- Portrait temporairement verrouille.
+- Zeno V2 plus grand (148dp), plateforme visible, yeux/clignement et coeur pulse.
+- Correction du blocage en haut : nouvelles coordonnees V2, placement centre si position invalide.
+- Aucune translation X/Y dans l'animation de repos afin de ne pas fausser le drag.
+- Plateforme purement visuelle et non cliquable.

@@ -1,0 +1,17 @@
+ZENO — ECRAN_TIROIR_APPLICATIONS
+
+Modification ciblée : uniquement le tiroir d'applications.
+
+- tiroir plein écran, opaque : aucun espace ne montre ECRAN_ACCUEIL derrière
+- barre de recherche courte en haut
+- texte « Rechercher »
+- micro dans la barre
+- bouton ⋮ à droite
+- menu : Mode de vue / Gestion d'applications / Groupes intelligents / Préférences
+- grille 4 colonnes par défaut, 5 colonnes disponible dans Mode de vue
+- pas de titre « Toutes les applications »
+- marge basse réduite
+- ECRAN_ACCUEIL non retravaillé dans cette étape
+
+À remplacer :
+app/src/main/java/com/zeno/launcher/MainActivity.java

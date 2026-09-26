@@ -1,0 +1,13 @@
+ZENO PERFORMANCE V1
+
+Base : Zeno_FIX_BLOCAGE_TIROIR.
+
+Optimisations ciblées sans changement visuel :
+- suppression du double scan coûteux des applications au démarrage (onCreate + onResume) ;
+- cache temporel du catalogue d'applications : pas de rechargement complet à chaque retour dans Zeno ;
+- recherche du tiroir temporisée de 120 ms : la grille n'est plus entièrement reconstruite à chaque caractère frappé ;
+- le correctif anti-blocage du tiroir est conservé ;
+- fond noir, grille, menu, Mode de vue et gestes restent identiques.
+
+Cette V1 reste volontairement compatible avec la base Java actuelle et n'ajoute aucune dépendance AndroidX/RecyclerView au projet partiel fourni.
+Une V2 pourra migrer la grille vers RecyclerView lorsque le projet Gradle complet sera disponible.

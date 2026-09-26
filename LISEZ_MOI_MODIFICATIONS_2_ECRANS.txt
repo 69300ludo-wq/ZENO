@@ -1,0 +1,16 @@
+ZENO — MODIFICATIONS DES DEUX ÉCRANS
+
+ECRAN_ACCUEIL
+- suppression de la barre de recherche
+- suppression du micro
+- suppression du menu ⋮ en haut
+- suppression de l'indicateur de page
+- aucun remplissage automatique des applications au premier lancement
+
+ECRAN_TIROIR_APPLICATIONS
+- fond transparent sur le fond d'écran (les icônes/widgets de l'accueil ne sont pas visibles)
+- barre Rechercher + micro + menu ⋮ conservée
+- Préférences > Ajuster l’écran tiroir > Ajuster au doigt
+- glisser les bords cyan Haut / Bas / Gauche / Droite
+- bouton 🔒 Verrouiller pour enregistrer
+- Réinitialiser restaure les marges par défaut

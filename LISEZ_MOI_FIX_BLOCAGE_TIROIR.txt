@@ -1,0 +1,13 @@
+ZENO - FIX BLOCAGE TIROIR
+
+Correction ciblee : le geste vers le bas pour revenir a l'ecran d'accueil etait ecoute sur le conteneur du tiroir, mais le ScrollView de la liste d'applications pouvait intercepter ce geste. Le tiroir pouvait alors sembler bloque.
+
+Correction : le detecteur du geste vers le bas observe maintenant aussi le ScrollView sans bloquer son defilement normal.
+
+Aucun changement volontaire sur : fond noir, grille, recherche, menu, Mode de vue, ecran d'accueil.
+
+Test :
+1. Depuis l'accueil, glisser vers le haut pour ouvrir le tiroir.
+2. Faire defiler les applications normalement.
+3. Glisser franchement vers le bas : retour a l'accueil.
+4. Le bouton Retour Android doit egalement revenir a l'accueil.

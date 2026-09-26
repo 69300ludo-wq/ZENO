@@ -1,0 +1,26 @@
+ZENO FINAL — BASE 1
+===================
+Base : Zeno_V3_1_FIX_TIROIR_INSTANTANE
+
+Mise en place concrète :
+- Repos de test Zeno : 10 secondes.
+- Reprise après extinction/verrouillage : l'accueil/Zeno est relancé au retour de l'activité.
+- Le tiroir reste instantané (aucune animation verticale de transition).
+- Dans le tiroir, les gestes verticaux sont réservés au défilement des applications.
+- Fermeture du tiroir : geste horizontal depuis le bord GAUCHE vers la DROITE.
+- Zone de bord et distance déjà stockées comme réglages internes :
+  drawer_close_edge_dp (32 dp par défaut)
+  drawer_close_distance_dp (110 dp par défaut)
+- Le robot garde son déplacement tactile indépendant sur l'accueil.
+
+À tester en priorité sur le téléphone :
+1. Zeno ferme les yeux après environ 10 s.
+2. Toucher Zeno le réveille.
+3. Éteindre l'écran, déverrouiller par empreinte : Zeno reprend ses animations.
+4. Ouvrir le tiroir avec le geste vers le haut depuis l'accueil.
+5. Faire défiler longtemps haut/bas : le tiroir ne doit jamais se fermer.
+6. Depuis le bord gauche du tiroir, glisser vers la droite : retour accueil.
+7. Répéter ouverture/fermeture rapidement pour vérifier qu'il ne se bloque plus.
+
+Cette BASE 1 lance le projet ZENO FINAL. Les modules vie/personnalité/voix/faim/eau/réveil
+seront branchés sur cette architecture après validation de cette base sur le vrai téléphone.

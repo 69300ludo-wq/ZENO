@@ -1,0 +1,11 @@
+ZENO - ECRAN TIROIR APPLICATIONS
+
+- Tiroir 100 % noir opaque : aucun fond d'ecran visible.
+- Suppression du mode HAUT/BAS/GAUCHE/DROITE, verrouillage et secours.
+- Recherche + micro + menu trois points conserves.
+- Menu trois points noir style Zeno.
+- Mode de vue personnalisable : 2 a 8 colonnes, taille icones, taille texte, espacement.
+- Grille repartie sur toute la largeur pour eviter un trou a droite.
+- Image validee de l'icone Zeno incluse comme reference dans drawable-nodpi.
+
+IMPORTANT : l'archive de base fournie dans la conversation est un correctif partiel (source MainActivity), pas un projet Gradle Android complet. Le code doit etre remis dans le projet Zeno complet pour compiler l'APK.

@@ -1,0 +1,10 @@
+ZENO VIVANT V1 - FIX ISOLATION ROBOT / TIROIR
+
+Correction ciblee :
+- le moteur d'animation de Zeno est coupe avant l'ouverture du tiroir ;
+- les callbacks et animations du robot sont annules ;
+- le listener tactile du robot est detache avant le changement d'ecran ;
+- l'accueil repart d'un etat propre lorsqu'il est recree ;
+- logique et apparence du tiroir PERFORMANCE V1 conservees.
+
+Test recommande : deplacer Zeno -> ouvrir son menu -> Applications -> defiler le tiroir -> retour accueil -> recommencer rapidement.

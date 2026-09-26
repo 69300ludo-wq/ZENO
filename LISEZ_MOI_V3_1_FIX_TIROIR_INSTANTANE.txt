@@ -1,0 +1,9 @@
+ZENO V3.1 - CORRECTIF TIROIR INSTANTANE
+
+- Base : Zeno V3 FIX COMPILATION.
+- Correction ciblee : suppression de l animation d entree du tiroir (translation verticale 90dp / 300 ms).
+- Le tiroir est affiche directement a sa position finale, sans transition visible.
+- Les fonctions Zeno V3 restent presentes.
+- Aucune modification du contenu, de la grille ou du menu du tiroir.
+
+TEST : ouvrir/fermer le tiroir rapidement 20 a 50 fois, faire defiler, revenir a l accueil, puis recommencer avec Zeno.
